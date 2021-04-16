@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/%7Breact-recipe-app%7D/static/css/main.1aea2243.chunk.css",
+    "main.js": "/%7Breact-recipe-app%7D/static/js/main.4c3fc21c.chunk.js",
+    "main.js.map": "/%7Breact-recipe-app%7D/static/js/main.4c3fc21c.chunk.js.map",
+    "runtime-main.js": "/%7Breact-recipe-app%7D/static/js/runtime-main.b4534394.js",
+    "runtime-main.js.map": "/%7Breact-recipe-app%7D/static/js/runtime-main.b4534394.js.map",
+    "static/js/2.7a39b3c5.chunk.js": "/%7Breact-recipe-app%7D/static/js/2.7a39b3c5.chunk.js",
+    "static/js/2.7a39b3c5.chunk.js.map": "/%7Breact-recipe-app%7D/static/js/2.7a39b3c5.chunk.js.map",
+    "static/js/3.05c92a72.chunk.js": "/%7Breact-recipe-app%7D/static/js/3.05c92a72.chunk.js",
+    "static/js/3.05c92a72.chunk.js.map": "/%7Breact-recipe-app%7D/static/js/3.05c92a72.chunk.js.map",
+    "index.html": "/%7Breact-recipe-app%7D/index.html",
+    "static/css/main.1aea2243.chunk.css.map": "/%7Breact-recipe-app%7D/static/css/main.1aea2243.chunk.css.map",
+    "static/js/2.7a39b3c5.chunk.js.LICENSE.txt": "/%7Breact-recipe-app%7D/static/js/2.7a39b3c5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b4534394.js",
+    "static/js/2.7a39b3c5.chunk.js",
+    "static/css/main.1aea2243.chunk.css",
+    "static/js/main.4c3fc21c.chunk.js"
+  ]
+}
