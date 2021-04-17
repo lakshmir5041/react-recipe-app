@@ -17,14 +17,14 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh './scripts/test.sh'
+                echo 'test stage'
             }
         }
         stage('Deliver') {
             steps {
-                sh './scripts/deliver.sh'
+                echo 'deliver stage'
                 input message: 'Finished using the web site? (Click "Proceed" to continue)'
-                sh './scripts/kill.sh'
+                echo 'kill stage'
             }
         }
     }
