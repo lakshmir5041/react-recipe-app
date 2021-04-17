@@ -1,4 +1,3 @@
-
 pipeline {
     agent {
         docker {
@@ -6,8 +5,8 @@ pipeline {
             args '-p 3000:3000'
         }
     }
-    environment {
-        HOME = '.'
+    environment { 
+        CI = 'true'
     }
     stages {
         stage('Build') {
@@ -17,14 +16,14 @@ pipeline {
         }
         stage('Test') {
             steps {
-                echo 'test stage'
+                sh './jenkins/scripts/test.sh'
             }
         }
-        stage('Deliver') {
+        stage('Deliver') { 
             steps {
-                echo 'deliver stage'
-                input message: 'Finished using the web site? (Click "Proceed" to continue)'
-                echo 'kill stage'
+                sh './jenkins/scripts/deliver.sh' 
+                input message: 'Finished using the web site? (Click "Proceed" to continue)' 
+                sh './jenkins/scripts/kill.sh' 
             }
         }
     }
